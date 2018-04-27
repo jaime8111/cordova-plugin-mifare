@@ -1,43 +1,19 @@
 {
-  "_from": "git+ssh://git@git.paradigmadigital.com/iot/paradigma-spaces/cordova-plugin-mifare.git",
-  "_id": "cordova-plugin-mifare@0.1.1",
-  "_inBundle": false,
-  "_location": "/cordova-plugin-mifare",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "git+ssh://git@git.paradigmadigital.com/iot/paradigma-spaces/cordova-plugin-mifare.git",
-    "rawSpec": "git+ssh://git@git.paradigmadigital.com/iot/paradigma-spaces/cordova-plugin-mifare.git",
-    "saveSpec": "git+ssh://git@git.paradigmadigital.com/iot/paradigma-spaces/cordova-plugin-mifare.git",
-    "fetchSpec": "ssh://git@git.paradigmadigital.com/iot/paradigma-spaces/cordova-plugin-mifare.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+ssh://git@git.paradigmadigital.com/iot/paradigma-spaces/cordova-plugin-mifare.git#a7f60b7f2fe82ae09282cc6bce9c66bdb21ad62b",
-  "_spec": "git+ssh://git@git.paradigmadigital.com/iot/paradigma-spaces/cordova-plugin-mifare.git",
-  "_where": "/Users/oferrer/workspace-pocs/inspace",
-  "author": {
-    "name": "Oscar Ferrer"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-plugin-mifare",
+  "version": "0.1.1",
+  "description": "Cordova Mifare Plugin",
   "cordova": {
     "id": "cordova-plugin-mifare",
     "platforms": [
       "android"
     ]
   },
-  "deprecated": false,
-  "description": "Cordova Mifare Plugin",
   "keywords": [
     "cordova",
     "device",
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "license": "Apache 2.0",
-  "name": "cordova-plugin-mifare",
-  "version": "0.1.1"
+  "author": "Oscar Ferrer",
+  "license": "Apache 2.0"
 }

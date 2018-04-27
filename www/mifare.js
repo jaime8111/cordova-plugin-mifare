@@ -1,13 +1,13 @@
 "use strict";
 
 var mifare ={
-    readUID: function(onSuccess, onError, args){
+    readUID: function(onSuccess){
         cordova.exec(
             onSuccess,
-            onError,
-            "MifarePlugin", 
-            "readUID", 
-            [args]
+            function (reason) {
+                console.log( "onFailure Plugin " + reason);
+            },
+            "MifarePlugin", "readUID"
         );
     }
 }
