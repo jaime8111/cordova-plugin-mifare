@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-mifare" version="0.2.3">
+        id="cordova-plugin-mifare" version="1.0">
     <name>Mifare</name>
     <description>Mifare Cordova Plugin</description>
     <license>Apache 2.0</license>
@@ -8,7 +8,7 @@
     <js-module src="www/mifare.js" name="mifare">
         <clobbers target="MifarePlugin" />
     </js-module>
-   
+    
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="MifarePlugin" >
